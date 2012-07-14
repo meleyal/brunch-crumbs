@@ -1,0 +1,28 @@
+
+  C r u m b s  .     .
+                   .
+
+  A simple project skeleton for Brunch [http://brunch.io].
+
+Usage
+-----
+
+  brunch new <app> -s https://github.com/meleyal/brunch-crumbs
+
+
+Features
+--------
+
+  Uses CoffeeScript, Backbone, jQuery, Sass, Eco, H5BP.
+
+  Includes Nginx/Heroku config and simple Docco generator.
+
+
+Examples
+--------
+
+Apps based on Crumbs:
+
+  - http://git.io/soundtape
+  - http://sport.guccitimeless.com
+
