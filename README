@@ -16,7 +16,7 @@ Features
 
   Uses CoffeeScript, Backbone, jQuery, Sass, Eco, H5BP.
 
-  Includes Nginx/Heroku config and simple Docco generator.
+  Includes Nginx/Heroku config and basic Docco generator.
 
 
 Examples
