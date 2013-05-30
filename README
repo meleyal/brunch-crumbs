@@ -4,17 +4,18 @@ C r u m b s  .     .
 
   A simple project skeleton for Brunch [http://brunch.io].
 
+  Uses
+    - CoffeeScript
+    - Backbone
+    - jQuery
+    - Sass
+    - Eco
+    - H5BP
+    - Karma
+    - Jasmine
+
 
 Usage
 -----
 
   brunch new <app> -s https://github.com/meleyal/brunch-crumbs
-
-
-Features
---------
-
-  Uses CoffeeScript, Backbone, jQuery, Sass, Eco, H5BP.
-
-  Includes Nginx/Heroku config and basic Docco generator.
-

@@ -5,8 +5,6 @@ exports.config =
       joinTo:
         'scripts/app.js': /^app/
         'scripts/vendor.js': /^vendor/
-        'test/scripts/test.js': /^test(\/|\\)(?!vendor)/
-        'test/scripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         # Files in `vendor` directories are compiled before other files
         # even if they aren't specified in order.before.

@@ -13,7 +13,8 @@
     "npm": "1.2.x"
   },
   "scripts": {
-    "start": "brunch watch --server"
+    "start": "brunch watch --server",
+    "test": "brunch build && karma start test/karma.conf.js"
   },
   "dependencies": {
     "javascript-brunch": ">= 1.0 < 1.7",
@@ -25,7 +26,7 @@
     "clean-css-brunch": ">= 1.0 < 1.7"
   },
   "devDependencies": {
-    "mocha": "0.14.0",
-    "expect.js": "0.1.2"
+    "coffee-script": "1.6.2",
+    "karma": "0.8.1"
   }
 }
