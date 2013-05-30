@@ -1,5 +1,5 @@
 Router = require 'routers/router'
-HelloView = require 'views/hello_view'
+HelloView = require 'views/hello-view'
 
 module.exports = class Application
 
