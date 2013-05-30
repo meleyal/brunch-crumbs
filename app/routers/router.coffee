@@ -5,7 +5,7 @@ module.exports = class Router extends Backbone.Router
     '*all': 'redirect'
 
   index: ->
-    $('#content').append app.helloView.render().el
+    $('body').append app.helloView.render().el
 
   redirect: ->
     @navigate ''
