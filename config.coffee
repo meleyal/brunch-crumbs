@@ -3,10 +3,10 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^vendor/
-        'test/javascripts/test.js': /^test(\/|\\)(?!vendor)/
-        'test/javascripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
+        'scripts/app.js': /^app/
+        'scripts/vendor.js': /^vendor/
+        'test/scripts/test.js': /^test(\/|\\)(?!vendor)/
+        'test/scripts/test-vendor.js': /^test(\/|\\)(?=vendor)/
       order:
         # Files in `vendor` directories are compiled before other files
         # even if they aren't specified in order.before.
@@ -15,12 +15,12 @@ exports.config =
           'vendor/scripts/underscore.js'
           'vendor/scripts/backbone.js'
         ]
-
     stylesheets:
       joinTo:
-        'stylesheets/app.css'
+        'styles/app.css'
       order:
-        before: ['vendor/styles/normalize.css']
-
+        before: [
+          'vendor/styles/normalize.css'
+        ]
     templates:
-      joinTo: 'javascripts/app.js'
+      joinTo: 'scripts/app.js'
