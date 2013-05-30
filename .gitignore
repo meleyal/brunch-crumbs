@@ -27,3 +27,6 @@ tmp/
 
 # Brunch output folder.
 public/
+
+# Docco output folder.
+docs/
