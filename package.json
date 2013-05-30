@@ -16,13 +16,13 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.4",
-    "coffee-script-brunch": ">= 1.0 < 1.4",
-    "css-brunch": ">= 1.0 < 1.4",
-    "sass-brunch": ">= 1.0 < 1.4",
-    "eco-brunch": ">= 1.0 < 1.4",
-    "uglify-js-brunch": ">= 1.0 < 1.4",
-    "clean-css-brunch": ">= 1.0 < 1.4"
+    "javascript-brunch": ">= 1.0 < 1.7",
+    "coffee-script-brunch": ">= 1.0 < 1.7",
+    "css-brunch": ">= 1.0 < 1.7",
+    "sass-brunch": ">= 1.0 < 1.7",
+    "eco-brunch": ">= 1.0 < 1.7",
+    "uglify-js-brunch": ">= 1.0 < 1.7",
+    "clean-css-brunch": ">= 1.0 < 1.7"
   },
   "devDependencies": {
     "mocha": "0.14.0",
