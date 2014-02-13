@@ -1,37 +1,29 @@
 {
-  "name": "package-name",
+  "author": "Your Name",
+  "name": "example-app",
   "description": "Package description",
-  "author": "William Meleyal",
   "version": "0.0.1",
-  "license": "MIT",
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": ""
   },
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  },
   "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build --optimize",
-    "test": "brunch build && karma start test/karma.conf.js",
-    "docs": "docco --layout classic app/*.coffee app/*/*.coffee"
+    "start": "brunch watch --server --port 5000",
+    "build": "brunch build --production"
   },
   "dependencies": {
-    "express": "~3.2.4"
-  },
-  "devDependencies": {
-    "coffee-script": "1.6.2",
-    "javascript-brunch": "< 1.7",
-    "coffee-script-brunch": "< 1.7",
-    "css-brunch": "< 1.7",
-    "sass-brunch": "< 1.7",
-    "eco-brunch": "< 1.7",
-    "uglify-js-brunch": "< 1.7",
-    "clean-css-brunch": "< 1.7",
-    "auto-reload-brunch": "< 1.7",
-    "karma": "0.8.1",
-    "docco": "0.6.2"
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "coffee-script-brunch": ">= 1.0 < 1.8",
+
+    "css-brunch": ">= 1.0 < 1.8",
+    "sass-brunch": ">= 1.0 < 1.8",
+
+    "eco-brunch": ">= 1.0 < 1.8",
+
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+
+    "auto-reload-brunch": ">= 1.0 < 1.8"
   }
 }

@@ -4,7 +4,7 @@ B r u n c h   C r u m b s  .     .
 
   A simple project skeleton for Brunch [http://brunch.io]
 
-  brunch new <app> -s https://github.com/meleyal/brunch-crumbs
+  brunch new gh:meleyal/brunch-crumbs [rootPath]
 
   Recipe:
 
@@ -14,8 +14,4 @@ B r u n c h   C r u m b s  .     .
     - Sass          [http://sass-lang.com/]
     - Eco           [https://github.com/sstephenson/eco]
     - H5BP          [http://html5boilerplate.com/]
-    - Karma         [http://karma-runner.github.io/]
-    - Jasmine       [http://pivotal.github.io/jasmine/]
-    - Docco         [http://jashkenas.github.io/docco/]
-    - Heroku        [http://heroku.com/]
 
